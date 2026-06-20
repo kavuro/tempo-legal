@@ -13,7 +13,7 @@ If you have any questions, contact us at **faridaslanov@icloud.com**.
 ## 1. Our privacy principles
 
 - **On-device first.** Your planning data lives on your device. We do not operate a general-purpose server that stores your schedule, chats, or logs.
-- **No tracking.** We do not track you across apps or websites. The App contains no third-party advertising or analytics SDKs, no IDFA/AdSupport, and no App Tracking Transparency prompt because we do not track.
+- **No tracking.** We do not track you across apps or websites. The App contains no third-party advertising or analytics SDKs, no IDFA/AdSupport, and no App Tracking Transparency prompt. We do use our **own first-party, anonymous, aggregate usage statistics** (see Section 2d) — these are not linked to your identity, contain none of your content, and are not used to track you; you can turn them off in Settings.
 - **No ads. No data sale.** We do not show ads and we do not sell, rent, or trade your personal information to anyone.
 - **Minimal sharing.** Data leaves your device only to deliver the features you ask for — chiefly, generating AI plans and replies.
 
@@ -30,7 +30,10 @@ The schedule blocks you create, chat messages, reflections, reminders, "wins"/pr
 **c. Context sent to AI features.**
 When you use an AI feature (for example, asking Tempo to plan your day or replying in chat), the App sends the **text of your request and relevant context** — your chat message, the relevant part of your schedule, and, where relevant to your request, **health or spending context** (for example, a recent weight or a budget figure) — to our AI service so it can generate a useful response. See Section 3 for how this is routed.
 
-**d. What we never collect or send to AI.**
+**d. Anonymous usage statistics.**
+To understand which features are useful and improve the App, we collect **anonymous, aggregate usage statistics** — for example how often a tab/feature is opened, a chat message is sent, a plan is confirmed or adjusted, and onboarding is completed. Each event contains **only** an event name, a timestamp, and the app version — **no personal information, no identifier, and none of your content.** It is collected by our own first-party endpoint (the Company's Cloudflare Worker), stored **only as aggregate counts** (never a per-user log, and your IP is never stored), and is **not** used to track you across apps. You can turn it off any time in **Settings → Privacy → "Share anonymous usage statistics."**
+
+**e. What we never collect or send to AI.**
 **Progress photos are never sent to AI features and never leave your device for AI processing.** We do not collect your contacts, precise location, browsing history, or device advertising identifiers.
 
 ---
